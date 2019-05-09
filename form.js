@@ -15,8 +15,6 @@ new Select( { el: "example-select" } );
 // Select.init();
 
 
-
-
 function generateNewSelect(oldSelect) {
 	const newSelect = document.createElement("div");
 	const newSelected = document.createElement("div");
